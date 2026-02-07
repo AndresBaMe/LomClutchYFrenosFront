@@ -1,5 +1,5 @@
 interface InputProps extends React.InputHTMLAttributes<HTMLInputElement>{}
-export default function Input (props: InputProps){
+export default function LoginInput (props: InputProps){
     return(
         <input 
         {...props}
